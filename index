@@ -1,0 +1,26 @@
+<form>
+            Nome: <input type="text" placeholder="Seu nome" required><br>
+            Email: <input type="email" placeholder="Seu Email" required><br>
+            Idade: <input type="number" min="18" max="100" required><br>
+            Qual sua função atual:
+            <select name="pessoa">
+                <option value="EST">Estudante</option>
+                <option value="PROF">Professor</option>
+            </select><br>
+            <div class="xd2">
+                Voce recomendaria para algum amigo?
+                <input type="radio" name="opcao" value="recs"> Recomendo
+                <input type="radio" name="opcao" value="recn"> Não recomendo
+            </div><br>
+Oque Você mais Gostou?:
+            <select name="pessoa">
+                <option value="di">Dinamica</option>
+                <option value="professores">Professores</option>
+            </select><br>
+            
+          
+            
+        </form>
+    </div>
+</body>
+</html>
